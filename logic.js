@@ -360,7 +360,7 @@ $(document).ready(function(){
                             rating: "Add more favorites!",
                         },
                     ];
-                    amntOfGifs = 9;
+                    amntOfFavs = 9;
                 }
             }
         }else if($(this).attr("buttonType") == 'favButton'){
