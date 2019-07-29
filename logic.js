@@ -75,7 +75,7 @@ $(document).ready(function(){
     }
     addGifButtons();
     let generateGifs = function(type){
-        queryUrl = "http://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=04V0cm1f2YcjKtGyckgcki1hbA3YZct5&limit=20"
+        queryUrl = "https://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=04V0cm1f2YcjKtGyckgcki1hbA3YZct5&limit=20"
         $.ajax({
             url: queryUrl,
             method: "GET"
